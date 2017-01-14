@@ -11,7 +11,7 @@ install -m 664 ./res/capslockOn.png ~/Executables/CapslockI/res/capslockOn.png
 cat > ~/.config/autostart/CapslockI.desktop << _EOF_
 [Desktop Entry]
 Type=Application
-Exec=/home/$USER/Executables/CapslockI/CapslockI.rb
+Exec=$HOME/Executables/CapslockI/CapslockI.rb
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
